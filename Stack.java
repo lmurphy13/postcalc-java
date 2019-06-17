@@ -30,7 +30,7 @@ public class Stack {
 		} else {
 			System.err.println("Cannot pop from empty stack!");
 		}
-		return '*';
+		return '~';
 	}
 
 	public char peek() {
@@ -38,7 +38,7 @@ public class Stack {
 			return this.data[top];
 		else
 			System.err.println("Cannot peek at empty stack!");
-		return '*';
+		return '~';
 	}
 
 	public boolean isFull() {
